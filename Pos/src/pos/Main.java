@@ -8,10 +8,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		ProductManager manager = ProductManager.creatManagerInst();
-		manager.readFromFile();
+		manager.readFromFile(); //기존파일 읽어오기
 
 		while (true) {
-			Menu.showProduct();
+			Menu.showProduct(); //사용자 선택 메뉴 보이기
 			System.out.print("선택 : ");
 			int cho_2 = sca.nextInt();
 			
